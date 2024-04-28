@@ -1,8 +1,9 @@
-import React from "react";
+import {React, useEffect} from "react";
 import styled from "styled-components";
+// import { Navigate } from "react-router-dom";
 import { WeatherIcons, Container, AppLabel } from "./part";
 // import {WeatherIcons, Container, AppLabel} from "./part";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate,Navigate } from "react-router-dom";
 export const WeatherInfoIcons = {
     back : "./icons/previous.png",
     sunset: "./icons/temp.svg",
@@ -99,7 +100,11 @@ const WeatherInfoComponent = (props) => {
 };
 const WeatherComponent = (props) => {
     // const {weather} = props;
+    const navigate = useNavigate()
     const location= useLocation()
+    if (location.state === null) {
+      return <Navigate to="/" />;
+    }
     const {weather} = location.state;
     const isDay = weather?.weather[0].icon?.includes('d')
     const getTime = (timeStamp) => {
