@@ -1,5 +1,15 @@
 # About
-**This is a React Js Project with React Router that uses OpenWeatherMap API to show Weather related details of a city or a named place.**
+**This is a React Js Project with React Router that uses [*OpenWeatherMap*](https://openweathermap.org/api) API to show Weather related details of a city or a named place.**
+# Cloning
+**In the Command line go to the folder where you want to setup the app and use below bash command and then install all dependencies using npm**
+```bash
+git clone https://github.com/shivamg0203/Quick-Weather-App-ReactJS
+npm install
+```
+**After succesfully installing dependencies use below command to start app in developement server**
+```bash
+npm start
+```
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
