@@ -10,6 +10,10 @@ npm install
 ```bash
 npm start
 ```
+# Previews
+1. **<img src="https://github.com/shivamg0203/Quick-Weather-App-ReactJS/blob/main/public/previews/weather1.png" alt="drawing" width="400"/>**
+2. **<img src="https://github.com/shivamg0203/Quick-Weather-App-ReactJS/blob/main/public/previews/weather4.png" alt="drawing" width="400"/>**
+3. **<img src="https://github.com/shivamg0203/Quick-Weather-App-ReactJS/blob/main/public/previews/weather2.png" alt="drawing" width="400"/>**
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
